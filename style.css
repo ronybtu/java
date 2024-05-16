@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.demo{
+  width: 430px;
+  height: 200px;
+  background-color: red;
+    padding: 2rem 0 1rem 2.5rem;
+}
+.head{
+  width: 90%;
+  height: 50px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+}
+button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 150px;
+  font-size: 20px;
+  background-color: blue;
+  height: 50px;
+  /* display: flex;
+  justify-content: center;
+  align-items: end; */
+  margin-top:2rem ;
+}

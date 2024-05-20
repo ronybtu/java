@@ -3,43 +3,111 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 0.8rem;
 }
 
 
-.demo{
-  width: 430px;
-  height: 200px;
-  background-color: red;
-    padding: 2rem 0 1rem 2.5rem;
-}
-.head{
-  width: 90%;
-  height: 50px;
-  background-color: green;
+
+.men-nav-bar{
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-.head p {
+  gap: 2rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 23px;
 }
-button{
+
+
+
+.ftipkart{
+  cursor: pointer;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.flex{
+  display: flex;
+  align-items: center;
+
+}
+.sell-div{
+  /* display: flex; */
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.sell-div:hover .up{
+  display: block;
+}
+.sell-div:hover .down{
+  display: none;
+}
+.up{
+  display: none;
+  font-size: 12px;
+}
+
+.down{
+  font-size: 12px;
+}
+.sell-div:hover{
+  color: #027dd5ac;
+}
+.create-account{
+  width: 250px;
+  height: 250px;
+  background-color: #FFFFFF;
+  padding: 2rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px  rgb(229, 231, 231);
+}
+.create-account{
+  color: black;
+  /* color: transparent; */
+}
+.account{
+  padding: 0.3rem;
+}
+.create-account{
+  display: none;
+  position: absolute;
+}
+.sell-div:hover .create-account{
+  display: block;
+}
+.cycle{
+  height: 130px;
+  width: 230px;
+}
+
+
+.right{
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 2rem;
+}
+.login{
+  cursor: pointer;
+}
+
+
+.login:hover{
+  color: #027dd5ac;
+}
+.start button{
   border: none;
   outline: none;
   background-color: transparent;
+  width: 170px;
+  height: 65px;
+  background-color:#FFCD00;
+  border-radius: 6px;
   cursor: pointer;
-  width: 150px;
-  font-size: 20px;
-  background-color: blue;
-  height: 50px;
-  /* display: flex;
-  justify-content: center;
-  align-items: end; */
-  margin-top:2rem ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
